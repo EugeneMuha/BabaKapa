@@ -42,7 +42,7 @@ header{
 
 /*наведение*/
 .order:hover{
-	animation: logo 2s alternate infinite;
+	animation: logo 3s alternate infinite;
 }
 
 /*Анимация*/
