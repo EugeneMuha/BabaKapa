@@ -23,7 +23,6 @@ header{
 	height: 100%;
 	background-color: grey;
 	border: 5px solid white;
-	animation: logo 2s alternate infinite;
 }
 
 .contact{
@@ -31,7 +30,6 @@ header{
 	height: 100%;
 	background-color: grey;
 	border: 5px solid white;
-	animation: logo 2s alternate infinite;
 }
 
 .order{
@@ -39,15 +37,20 @@ header{
 	height: 100%;
 	background-color: grey;
 	border: 5px solid white;
-	animation: logo 2s alternate infinite;
 }
 
+
+/*наведение*/
+.order:hover{
+	animation: logo 2s alternate infinite;
+}
 
 /*Анимация*/
 
 @keyframes logo{
-	from{background-color: grey; border: 5px solid white;}
-	to{background-color: white; border: 5px solid grey;}
+	from{ border: 5px solid #fff;}
+	50%{box-shadow: inset 0 0 50px #000;}
+	to{ border: 5px solid #C341FF;box-shadow: none;}
 }
 
 nav{
@@ -71,6 +74,8 @@ aside{
 	display: flex;
 	background-color: #000;
 }
+
+
 
 article{
 	width: 78.3%;
