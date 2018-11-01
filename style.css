@@ -8,13 +8,16 @@
 
 
 .wrapper{
-	max-width: 1400px;
+	max-width: 1920px;
+	min-width: 1000px;
 	margin: 0 auto;
 }
 
 header{
-	width: 100%;
+	max-width: 1920px;
+	min-width: 1000px;
 	height: 290px;
+	margin: 0 auto;
 /*	background-color: #000;*/
 	display: flex;
 	justify-content: space-around;
@@ -28,7 +31,7 @@ header{
 }
 
 .shtorka2{
-	width: 27%;
+	width: 18%;
 	background-image: url(images/праваяшторка.png);
 	background-repeat: no-repeat;
 	/*display: flex;*/
