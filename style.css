@@ -18,22 +18,21 @@ header{
 	min-width: 1000px;
 	height: 290px;
 	margin: 0 auto;
-/*	background-color: #000;*/
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .shtorka1{
-	width: 100%;
+	width: 300px;
 	background-image: url(images/леваяшторка.png);
-	background-repeat: no-repeat;
+	background-size: cover;
 	/*display: flex;*/
 }
 
 .shtorka2{
-	width: 18%;
+	width: 300px;
 	background-image: url(images/праваяшторка.png);
-	background-repeat: no-repeat;
+	background-size: cover;
 	/*display: flex;*/
 	/*right: 0;*/
 }
